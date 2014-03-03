@@ -126,15 +126,6 @@ body {
   box-shadow: none;
 }
 
-[class*=icon] {
-  height: 25px;
-  width: 25px;
-  background-color: #929292;
-  border: 0;
-  -webkit-mask-image: url(../img/ios7_2x.png);
-  -webkit-mask-size: 25px;
-}
-
 .tab-label {
   color: #929292;
   text-shadow: none;
@@ -447,101 +438,4 @@ input[type=search]:focus::-webkit-input-placeholder {
 
 .input-group input:not([type=radio]):not([type=checkbox]) {
   height: auto;
-}
-
-/* tab icons */
-[class*=icon].bookmark {
-  -webkit-mask-position: 0 -344px;
-}
-
-[class*=icon].camera {
-  -webkit-mask-position: 0 -122px;
-}
-
-[class*=icon].check {
-  -webkit-mask-position: 0 -539px;
-}
-
-[class*=icon].download {
-  -webkit-mask-position: 0 -394px;
-}
-
-[class*=icon].fast-forward {
-  -webkit-mask-position: 0 -74px;
-}
-
-[class*=icon].favorite {
-  -webkit-mask-position: 0 -418px;
-}
-
-[class*=icon].folder {
-  -webkit-mask-position: 0 -172px;
-}
-
-[class*=icon].history {
-  -webkit-mask-position: 0 -443px;
-}
-
-[class*=icon].info {
-  -webkit-mask-position: 0 -614px;
-}
-
-[class*=icon].minus-filled {
-  -webkit-mask-position: 0 -566px;
-}
-
-[class*=icon].more {
-  -webkit-mask-position: 0 -466px;
-}
-
-[class*=icon].new-message {
-  -webkit-mask-position: 0 -148px;
-}
-
-[class*=icon].pause {
-  -webkit-mask-position: 0 -195px;
-}
-
-[class*=icon].play {
-  -webkit-mask-position: 0 -221px;
-}
-
-[class*=icon].plus {
-  -webkit-mask-position: 0 -98px;
-}
-
-[class*=icon].plus-filled {
-  -webkit-mask-position: 0 -590px;
-}
-
-[class*=icon].popular {
-  -webkit-mask-position: 0 -491px;
-}
-
-[class*=icon].refresh {
-  -webkit-mask-position: 0 -245px;
-}
-
-[class*=icon].reply {
-  -webkit-mask-position: 0 -270px;
-}
-
-[class*=icon].rewind {
-  -webkit-mask-position: 0 -294px;
-}
-
-[class*=icon].sort {
-  -webkit-mask-position: 0 -515px;
-}
-
-[class*=icon].trash {
-  -webkit-mask-position: 0 -320px;
-}
-
-[class*=icon].user {
-  -webkit-mask-position: 0 -369px;
-}
-
-[class*=icon].upload {
-  -webkit-mask-position: 0 -50px;
 }
